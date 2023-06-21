@@ -3,22 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>scissor</title>
   </head>
   <body>
     <div class="hero">
       <header>
-        <div class="wrapper">
+        <div class="wrapper flex">
           <img src="assets/img/Logo.svg" alt="" />
           <nav class="nav">
             <ul class="nav_links">
-              <li><a href="#">My urls</a></li>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Pricing</a></li>
-              <li><a href="#">Analytics</a></li>
-              <li><a href="#">FAQs</a></li>
-              <li><a href="#" class="right">Log in</a></li>
-              <li><a href="#" class="right">try for free</a></li>
+              <li><a href="#" class="nav__link"><span class="blue">My URLs</span></a></li>
+              <!-- put an arrow on features -->
+              <li><a href="#" class="nav__link">Features</a></li>
+              <li><a href="#" class="nav__link">Pricing</a></li>
+              <li><a href="#" class="nav__link">Analytics</a></li>
+              <li><a href="#" class="nav__link">FAQs</a></li>
+              <li><a href="#" class="push right nav__link">Log in</a></li>
+              <li><a href="#" class=" right blue-btn">try for free</a></li>
             </ul>
           </nav>
         </div>
@@ -26,11 +28,14 @@
 
       <div class="main__hero">
         <div class="container">
-          <h1 class="header">
-            Optimize Your Online Experience with Our Advanced
-            <span>URL Shortening </span>Solution
-          </h1>
-          <p>
+          <h4 class="hero-header">
+            Optimize Your Online Experience with Our <span class="break">
+              Advanced
+              <span class="blue">URL Shortening </span>Solution
+            </span>
+              <img src="assets/img/Vector 3.png" alt="stroke" class="stroke">
+          </h4>
+          <p class="paragraph">
             Personalize your shortened URLs to align with your brand identity.
             Utilize custom slugs, branded links, and domain customization
             options to reinforce your brand presence and enhance user
@@ -38,17 +43,24 @@
           </p>
 
           <div class="btn">
-            <button>sign up</button>
-            <button>learn more</button>
+            <button class="btn_blue">sign up</button>
+            <a href="#" class="btn_white">learn more</a>
           </div>
 
-          <div>
-            <img src="assets/img/herolink.png" alt="" />
-            <p>
-              Seamlessly transform your long URLs into concise and shareable
-              links with just few clicks.
-            </p>
+          <div class="frame1">
+            <div>
+              <img src="assets/img/herolink.png" alt="" class="hero-img"/>
+              <p class="frame-paragraph">
+                Seamlessly transform your long URLs into concise and <strong>
+                  shareable
+                  links
+                </strong> with just few clicks.
+              </p>
+            </div>
           </div>
+        </div>
+        <div class="ellipse">
+          <img src="assets/img/Ellipse.png" alt="" class="ellipse-img">
         </div>
       </div>
     </div>
@@ -80,7 +92,7 @@
     </section>
 
     <section>
-      <div class="container grid">
+      <div class="container flex">
         <div>
           <h1>why choose scissors</h1>
           <p>
@@ -93,35 +105,45 @@
         </div>
 
         <div>
-          <h3>URL Shortening</h3>
-          <p>
-            Scissor allows you to shorten URLs of your business, events. Shorten
-            your URL at scale, URL redirects.
-          </p>
+          <div>
+            <h3>URL Shortening</h3>
+            <p>
+              Scissor allows you to shorten URLs of your business, events. Shorten
+              your URL at scale, URL redirects.
+            </p>
+          </div>
+          <div>
+            <h3>QR codes</h3>
+            <p>
+              Generate QR codes to your business, events. Bring your audience and
+              customers to your doorstep with this scan and go solution.
+            </p>
+          </div>
+         
         </div>
 
+       
+       
         <div>
-          <h3>custom URLs</h3>
-          <p>
-            With Scissor, you can create custom URLs, with the length you want!
-            A solution for socials and businesses.
-          </p>
-        </div>
-        <div>
-          <h3>QR codes</h3>
-          <p>
-            Generate QR codes to your business, events. Bring your audience and
-            customers to your doorstep with this scan and go solution.
-          </p>
-        </div>
-        <div>
-          <h3>data analytics</h3>
-          <p>
-            Receive data on the usage of either your shortened URL, custom URLs
-            or generated QR codes. Embedded to monitor progress.
-          </p>
+          <div>
+            <h3>custom URLs</h3>
+            <p>
+              With Scissor, you can create custom URLs, with the length you want!
+              A solution for socials and businesses.
+            </p>
+          </div>
+
+          <div>
+            <h3>data analytics</h3>
+            <p>
+              Receive data on the usage of either your shortened URL, custom URLs
+              or generated QR codes. Embedded to monitor progress.
+            </p>
+          </div>
         </div>
       </div>
+
+     
     </section>
 
     <section class="prices">

@@ -10,17 +10,16 @@
     <div class="hero">
       <header>
         <div class="wrapper flex">
-          <img src="assets/img/Logo.svg" alt="" />
+          <img src="assets/img/Logo.svg" alt="company logo" class="logo"/>
           <nav class="nav">
             <ul class="nav_links">
               <li><a href="#" class="nav__link"><span class="blue">My URLs</span></a></li>
-              <!-- put an arrow on features -->
-              <li><a href="#" class="nav__link">Features</a></li>
+              <li><a href="#" class="nav__link features">Features <img src="assets/img/chevron-down.svg" alt="" class="chevron-down"></a></li>
               <li><a href="#" class="nav__link">Pricing</a></li>
               <li><a href="#" class="nav__link">Analytics</a></li>
               <li><a href="#" class="nav__link">FAQs</a></li>
               <li><a href="#" class="push right nav__link">Log in</a></li>
-              <li><a href="#" class=" right blue-btn">try for free</a></li>
+              <li><a href="#" class="btn_blue">try for free</a></li>
             </ul>
           </nav>
         </div>
@@ -44,11 +43,11 @@
 
           <div class="btn">
             <button class="btn_blue">sign up</button>
-            <a href="#" class="btn_white">learn more</a>
+            <a href="#" class="learn-more">learn more</a>
           </div>
 
-          <div class="frame1">
-            <div>
+          <div class="frame">
+            <div class="box">
               <img src="assets/img/herolink.png" alt="" class="hero-img"/>
               <p class="frame-paragraph">
                 Seamlessly transform your long URLs into concise and <strong>
@@ -67,35 +66,38 @@
 
     <section class="analytics">
       <div class="container flex">
-        <h1>
-          One Stop <br />
-          Four <span>Possibilities</span>.
+        <h1 class="analytics-header">
+          One Stop. <br />
+          Four <span class="blue">Possibilities</span>.
         </h1>
 
-        <div>
+        <div class="flex-item">
           <h3>3M</h3>
-          <p>active users</p>
+          <p>Active users</p>
         </div>
-        <div>
+
+        <div class="flex-item">
           <h3>60M</h3>
           <p>Links & QR codes created</p>
         </div>
-        <div>
+
+        <div class="flex-item">
           <h3>1M</h3>
           <p>Clicked & Scanned connections</p>
         </div>
-        <div>
+
+        <div class="flex-item">
           <h3>300k</h3>
           <p>App Integrations</p>
         </div>
       </div>
     </section>
 
-    <section>
-      <div class="container flex">
-        <div>
-          <h1>why choose scissors</h1>
-          <p>
+    <section class="why_chose_us">
+      <div class="container grid3">
+        <div class="grid-item ">
+          <h1 class="header why"> <img src="assets/img/line-70.png" alt="" class="horizontal-line"> Why choose <span class="blue">Scissors</span></h1>
+          <p class="paragraph">
             Scissors is the hub of everything that has to do with your link
             management. We shorten your URLs, allow you creating custom ones for
             your personal, business, event usage. Our swift QR code creation,
@@ -104,146 +106,200 @@
           </p>
         </div>
 
-        <div>
-          <div>
+        <div class="grid-item url-shortening">
+          <img src="assets/img/link-2.png" alt="" class="grid-img">
             <h3>URL Shortening</h3>
-            <p>
+            <p class="paragraph">
               Scissor allows you to shorten URLs of your business, events. Shorten
               your URL at scale, URL redirects.
             </p>
-          </div>
-          <div>
-            <h3>QR codes</h3>
-            <p>
-              Generate QR codes to your business, events. Bring your audience and
-              customers to your doorstep with this scan and go solution.
-            </p>
-          </div>
-         
         </div>
 
-       
-       
-        <div>
-          <div>
-            <h3>custom URLs</h3>
-            <p>
+          <div class="grid-item custom">
+            <img src="assets/img/edit.png" alt="" class="grid-img">
+            <h3>Custom URLs</h3>
+            <p class="paragraph">
               With Scissor, you can create custom URLs, with the length you want!
               A solution for socials and businesses.
             </p>
           </div>
 
-          <div>
-            <h3>data analytics</h3>
-            <p>
+          <div class="grid-item qrcodes">
+            <img src="assets/img/grid.png" alt="" class="grid-img">
+            <h3>QR Codes</h3>
+            <p class="paragraph">
+              Generate QR codes to your business, events. Bring your audience and
+              customers to your doorstep with this scan and go solution.
+            </p>
+          </div>
+
+          <div class="grid-item data">
+            <img src="assets/img/activity.png" alt="" class="grid-img">
+            <h3>Data Analytics</h3>
+            <p class="paragraph">
               Receive data on the usage of either your shortened URL, custom URLs
               or generated QR codes. Embedded to monitor progress.
             </p>
           </div>
-        </div>
       </div>
-
-     
     </section>
 
     <section class="prices">
       <div class="container">
-
-        <div class="section__header">
-          <h3 class="header">a <span>price perfect</span> for your needs</h3>
-          <p>
+        <div class="section-header">
+          <h3 class="header"> <img src="assets/img/line-70.png" alt="" class="horizontal-line"> A <span class="blue">price perfect</span> for your needs</h3>
+          <p class="paragraph">
             From catering for your personal, business, event, socials needs, you
             can be rest assured we have you in mind in our pricing.
           </p>
         </div>
+      <div class="price-grid">
 
         <div class="card free">
-          <h4>basic</h4>
-          <h3>free</h3>
-          <li>free plan for all users</li>
-          <li>unlimited url Shortening</li>
-          <li>basic link analytics</li>
-          <li>customable short links</li>
-          <li>standard support</li>
-          <li>ad-supported</li>
+          <h4 class="card-header">Basic</h4>
+          <h3 class="price-tag">Free</h3>
+          <li class="price-list">free plan for all users</li>
+          <li class="price-list"><img src="assets/img/check-circle.png" alt="check-circle">unlimited url Shortening</li>
+          <li class="price-list"><img src="assets/img/check-circle.png" alt="check-circle">basic link analytics</li>
+          <li class="price-list"><img src="assets/img/check-circle.png" alt="check-circle">customable short links</li>
+          <li class="price-list"><img src="assets/img/check-circle.png" alt="check-circle">standard support</li>
+          <li class="price-list"><img src="assets/img/check-circle.png" alt="check-circle">ad-supported</li>
         </div>
 
         <div class="card professional">
-          <h4>professional</h4>
-          <h3>15$/month</h3>
-          <li>ideal for business creators</li>
-          <li>enhanced link analytics</li>
-          <li>custom branded domains</li>
-          <li>advanced link customization</li>
-          <li>priority support</li>
-          <li>ad-free xperience</li>
+          <h4 class="card-header">Professional</h4>
+          <h3 class="price-tag">15$/month</h3>
+          <li class="price-list">ideal for business creators</li>
+          <li class="price-list"><img src="assets/img/check-circle.png" alt="check-circle">enhanced link analytics</li>
+          <li class="price-list"><img src="assets/img/check-circle.png" alt="check-circle">custom branded domains</li>
+          <li class="price-list"><img src="assets/img/check-circle.png" alt="check-circle">advanced link customization</li>
+          <li class="price-list"><img src="assets/img/check-circle.png" alt="check-circle">priority support</li>
+          <li class="price-list"><img src="assets/img/check-circle.png" alt="check-circle">ad-free xperience</li>
         </div>
 
         <div class="card teams">
-          <h4>teams</h4>
-          <h3>25$/month</h3>
-          <li>share with up to 10 users</li>
-          <li>team collaborations</li>
-          <li>user roles and permission</li>
-          <li>enhanced security</li>
-          <li>API access</li>
-          <li>dedicated account manager</li>
+          <h4 class="card-header">Teams</h4>
+          <h3 class="price-tag">25$/month</h3>
+          <li class="price-list">share with up to 10 users</li>
+          <li class="price-list"><img src="assets/img/check-circle.png" alt="check-circle">team collaborations</li>
+          <li class="price-list"><img src="assets/img/check-circle.png" alt="check-circle">user roles and permission</li>
+          <li class="price-list"><img src="assets/img/check-circle.png" alt="check-circle">enhanced security</li>
+          <li class="price-list"><img src="assets/img/check-circle.png" alt="check-circle">API access</li>
+          <li class="price-list"><img src="assets/img/check-circle.png" alt="check-circle">dedicated account manager</li>
         </div>
-
-        <div class="btn">
-          <button>get custom pricing</button>
-          <button>select pricing</button>
-        </div>
+ </div>
+ <div class="btn">
+  <button class="btn_white">get custom pricing</button>
+  <button class="btn_blue">select pricing</button>
+</div>
+        
       </div>
     </section>
 
     <section class="form">
-        <div class="container">
-            <form action="">
-                <input type="url" name="url" id="url" placeholder="paste url here">
+        <div class="container trim-url grid">
+            <form action="" class="forms">
+                <input type="url" name="url" id="url" class="url" placeholder="Paste URL here...">
                 <select name="domain" id="domain">
-                    <option value="default" selected>default</option>
+                    <option value="choose-domain" selected>Choose Domain</option>
                     <option value=".com">.com</option>
                     <option value=".io">.io</option>
                     <option value=".net">.net</option>
                 </select>
-                <input type="text" name="alias" id="alias" placeholder="type alias here" >
+                <input type="text" name="alias" id="alias" placeholder="Type Alias here" >
 
-                <button>trim url</button>
-                <p class="agree-text">
-                    By clicking TrimURL, I agree to the Terms of Service, Privacy Policy and Use of Cookies.
-                </p>
+                <button class="form-btn">Trim URL <img src="assets/img/magic-wand.svg" alt=""></button>
             </form>
+            <p class="agreement-text">
+              By clicking TrimURL, I agree to the <strong>Terms of Service,</strong> <strong>Privacy Policy</strong> and Use of Cookies.
+          </p>
         </div>
     </section>
 
     <section class="faqs">
         <div class="container">
-            <ul>
-                <li>How does URL shortening work?</li>
-                <li>Is it necessary to create an account to use the URL shortening service?</li>
-                <li>Are the shortened links permanent? Will they expire?</li>
-                <li>Are there any limitations on the number of URLs I can shorten?</li>
-                <li>Can I customize the shortened URLs to reflect my brand or content?</li>
-                <li>Can I track the performance of my shortened URLs?</li>
-                <li>How secure is the URL shortening service? Are the shortened links protected against spam or malicious activity?</li>
-                <li>What is a QR code and what can it do?</li>
-                <li>Is there an API available for integrating the URL shortening service into my own applications or websites?</li>
-            </ul>
+          <h2 class="header"> <img src="assets/img/line-70.png" alt="">FAQs</h2>
+
+          <ul class="accordion">
+            <li>
+              <label for="first">How does URL shortening work?</label>
+              <input type="radio" name="accordion" id="first" checked>
+              <div class="content">
+                <p>URL shortening works by taking a long URL and creating a shorter, condensed version that redirects to the original URL. When a user clicks on the shortened link, they are redirected to the intended destination.
+              </p>
+              </div>
+            </li>
+            <li>
+              <label for="second">Is it necessary to create an account to use the URL shortening service?</label>
+              <input type="radio" name="accordion" id="second">
+              <div class="content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, neque!</p>
+              </div>
+            </li>
+            <li>
+              <label for="third">Are the shortened links permanent? Will they expire?</label>
+              <input type="radio" name="accordion" id="third">
+              <div class="content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, neque!</p>
+              </div>
+            </li>
+            <li>
+              <label for="fourth">Are there any limitations on the number of URLs I can shorten?</label>
+              <input type="radio" name="accordion" id="fourth" >
+              <div class="content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, neque!</p>
+              </div>
+            </li>
+            <li>
+              <label for="fifth">Can I customize the shortened URLs to reflect my brand or content?</label>
+              <input type="radio" name="accordion" id="fifth" >
+              <div class="content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, neque!</p>
+              </div>
+            </li>
+            <li>
+              <label for="sixth">Can I track the performance of my shortened URLs?</label>
+              <input type="radio" name="accordion" id="sixth" >
+              <div class="content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, neque!</p>
+              </div>
+            </li>
+            <li>
+              <label for="seventh">How secure is the URL shortening service? Are the shortened links protected against spam or malicious activity?</label>
+              <input type="radio" name="accordion" id="seventh" >
+              <div class="content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, neque!</p>
+              </div>
+            </li>
+            <li>
+              <label for="eighth">What is a QR code and what can it do?</label>
+              <input type="radio" name="accordion" id="eighth" >
+              <div class="content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, neque!</p>
+              </div>
+            </li>
+            <li>
+              <label for="ninth">Is there an API available for integrating the URL shortening service into my own applications or websites?</label>
+              <input type="radio" name="accordion" id="ninth" >
+              <div class="content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, neque!</p>
+              </div>
+            </li>
+          </ul>
         </div>
     </section>
 
     <section class="call-to-action">
-        <div class="container">
+        <div class="container flex">
             <h1>Revolutionizing Link Optimization</h1>
-            <button>get started</button>
+            <button class="btn_blue">get started</button>
         </div>
     </section>
 
-    <footer>
-        <div class="container">
-            <div class="logo+">
-                <img src="assets/img/Logo.svg" alt="logo">
+    <footer class="footer">
+        <div class="container grid5">
+            <div class="grid-one">
+                <img src="assets/img/Logo.svg" alt="company logo" class="logo">
                 <div class="socials">
                     <img src="assets/img/twitter.png" alt="logo">
                     <img src="assets/img/instagram.png" alt="logo">
@@ -252,86 +308,95 @@
                 </div>
             </div>
 
-            <div>
-              <div>
-                <h4>why scissors?</h4>
-                <ul>
-                    <li><a href="#">scissor 101</a></li>
-                    <li><a href="#"></a>Integrations & API</a></li>
-                    <li><a href="#">Pricing</a></li>
-                </ul>
-              </div>
 
-              <div>
-                <h4>resources</h4>
-                <ul>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Resource Library</a></li>
-                    <li><a href="#">Developers</a></li>
-                    <li><a href="#">App Connectors</a></li>
-                    <li><a href="#">Support</a></li>
-                    <li><a href="#">Trust Center</a></li>
-                    <li><a href="#">Browser Extension/a></li>
-                    <li><a href="#"> Mobile App</a></li>
-                </ul>
-              </div>
+            <div class="why-scissors?">
+              <h4>Why Scissors?</h4>
+              <ul>
+                  <li><a href="#">Scissor 101</a></li>
+                  <li><a href="#"></a>Integrations & API</a></li>
+                  <li><a href="#">Pricing</a></li>
+              </ul>
             </div>
 
-            <div>
-                <div>
-                    <h4>solutions</h4>
-                    <li><a href="#">Social Media</a></li>
-                    <li><a href="#">Digital Marketing</a></li>
-                    <li><a href="#">Customer Service</a></li>
-                    <li><a href="#">For Developers</a></li>
-                </div>
+            <div class="solutions">
+              <h4>Solutions</h4>
+              <ul>
+                <li><a href="#">Social Media</a></li>
+                <li><a href="#">Digital Marketing</a></li>
+                <li><a href="#">Customer Service</a></li>
+                <li><a href="#">For Developers</a></li>
+              </ul>
+          </div>
 
-                <div>
-                    <h4>features</h4>
-                    <li><a href="#"> Branded Links</a></li>
-                    <li><a href="#">Mobile Links</a></li>
-                    <li><a href="#">Campaign</a></li>
-                    <li><a href="#">Management &</a></li>
-                    <li><a href="#">Analytics</a></li>
-                    <li><a href="#">QR Code generation</a></li>
-                </div>
-            </div>
-
-            <div>
-                <div>
-                    <h4>products</h4>
-                    <li><a href="#">Link Management</a></li>
-                    <li><a href="#">QR Codes</a></li>
-                    <li><a href="#">Link-in-bio</a></li>
-                </div>
-
-                <div>
-                    <h4>legal</h4>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Cookie Policy</a></li>
-                    <li><a href="#">Terms of Service</a></li>
-                    <li><a href="#">Acceptable Use Policy</a></li>
-                    <li><a href="#">Code of Conduct</a></li>
-                </div>
-            </div>
-
-            <div>
-                <div>
-                    <h4>company</h4>
-                    <li><a href="#">About Scissor</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Partners</a></li>
-                    <li><a href="#">Press</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Reviews</a></li>
-                </div>
-            </div>
+          <div class="products">
+            <h4>Products</h4>
+            <ul>
+              <li><a href="#">Link Management</a></li>
+              <li><a href="#">QR Codes</a></li>
+              <li><a href="#">Link-in-bio</a></li>
+            </ul>
         </div>
 
-        <p class="copyright">
-            <a href="#">Term of Service</a>
+        <div class="company">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Scissor</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Reviews</a></li>
+          </ul>
+      </div>
+
+            <div class="resources">
+              <h4>Resources</h4>
+              <ul>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Resource Library</a></li>
+                  <li><a href="#">Developers</a></li>
+                  <li><a href="#">App Connectors</a></li>
+                  <li><a href="#">Support</a></li>
+                  <li><a href="#">Trust Center</a></li>
+                  <li><a href="#">Browser Extension</a></li>
+                  <li><a href="#"> Mobile App</a></li>
+              </ul>
+            </div>
+
+          
+
+          <div class="footer-features">
+              <h4 >Features</h4>
+              <ul>
+                <li><a href="#">Branded Links</a></li>
+                <li><a href="#">Mobile Links</a></li>
+                <li><a href="#">Campaign</a></li>
+                <li><a href="#">Management &</a></li>
+                <li><a href="#">Analytics</a></li>
+                <li><a href="#">QR Code generation</a></li>
+              </ul>
+          </div>
+
+         
+
+        <div>
+            <h4>Legal</h4>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Cookie Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Acceptable Use Policy</a></li>
+              <li><a href="#">Code of Conduct</a></li>
+            </ul>
+        </div>
+
+    
+        </div>
+
+        <p class="copyright container">
+            <a href="#">Term of Service</a> |
             <a href="#">Security</a>
-            <a href="#">&copy; Scissor 2023</a>
+            | <a href="#">&copy; Scissor 2023</a>
         </p>
     </footer>
   </body>

@@ -340,16 +340,19 @@ header {
 }
 
 .free {
-   margin-left: 5.8rem;
+   margin-left: 6.5rem;
+   z-index: 0;
 }
 
 .teams {
-   margin-right: 3rem;
+   margin-right: 4.5rem;
+   z-index: 0;
 }
 
 .prices .btn {
    text-align: center;
-   margin-top: -3rem;
+   margin-top: 3rem;
+   
 }
 
 /* form section styling */
